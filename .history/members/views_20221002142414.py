@@ -9,4 +9,4 @@ def index(request):
     output=''
     for x in mymembers:
         output+=['firstname']
-    return HttpResponse(output)
+    

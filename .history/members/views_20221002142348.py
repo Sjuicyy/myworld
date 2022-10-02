@@ -8,5 +8,5 @@ def index(request):
     mymembers=Members.objects.all().values()
     output=''
     for x in mymembers:
-        output+=['firstname']
-    return HttpResponse(output)
+        
+    
